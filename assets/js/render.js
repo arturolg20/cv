@@ -87,6 +87,20 @@ function renderCV(data) {
         ]));
     }
 
+    if (data.additional_experience && data.additional_experience.length) {
+        root.appendChild(el("section", { class: "section" }, [
+            el("h2", {}, ["Experiencia adicional"]),
+            ...data.additional_experience.map(job =>
+                el("article", { class: "item" }, [
+                    el("h3", {}, [`${job.role} — ${job.company}`]),
+                    el("p", { class: "period" }, [job.period]),
+                    el("ul", {}, job.bullets.map(b => el("li", {}, [b])))
+                ])
+            )
+        ]));
+    }
+
+
 }
 
 // En cada página pondremos un data-json="..."
