@@ -6,10 +6,22 @@ async function loadCV(jsonPath) {
 
 function el(tag, attrs = {}, children = []) {
     const node = document.createElement(tag);
-    Object.entries(attrs).forEach(([k, v]) => node.setAttribute(k, v));
-    children.forEach(c => node.appendChild(typeof c === "string" ? document.createTextNode(c) : c));
+
+    Object.entries(attrs).forEach(([k, v]) => {
+        node.setAttribute(k, v);
+    });
+
+    children.forEach(c => {
+        node.appendChild(
+            typeof c === "string"
+                ? document.createTextNode(c)
+                : c
+        );
+    });
+
     return node;
 }
+
 
 function renderCV(data) {
     // Meta (para SEO/preview)
