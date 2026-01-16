@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Arturo Lettieri – CV Localization",
+    "description": "Traducción, edición y QA de localización (ES/EN/CA)."
+  },
+  "profile": {
+    "name": "Arturo Lettieri González",
+    "headline": "Localization Editor / Proofreader – ES (EU) | EN | CA",
+    "location": "Castellón, España",
+    "email": "lettier.art@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/arturo-lettieri-gonz%C3%A1lez-b59a39242/",
+    "summary": "Resumen de traducción/localización..."
+  },
+  "skills": ["Proofreading", "MTPE", "Localization QA", "CAT tools", "Subtitling QC"],
+  "experience": [
+    {
+      "role": "Localization QA / Subtitle QC",
+      "company": "Empresa X",
+      "period": "2023–2025",
+      "bullets": ["Tarea 1", "Tarea 2"]
+    }
+  ],
+  "education": [
+    {
+      "title": "Formación relevante",
+      "org": "X",
+      "period": "YYYY"
+    }
+  ]
+}

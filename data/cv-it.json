@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "title": "Arturo Lettieri – CV IT",
+    "description": "Perfil IT: Java, desarrollo web, SQL, proyectos DAW."
+  },
+  "profile": {
+    "name": "Arturo Lettieri González",
+    "headline": "Junior Web Developer (DAW) – Java | SQL | Web",
+    "location": "Castellón, España",
+    "email": "lettier.art@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/arturo-lettieri-gonz%C3%A1lez-b59a39242/",
+    "github": "https://github.com/arturolg20",
+    "summary": "Estudiante de Desarrollo de Aplicaciones Web (DAW), con especial interés en el desarrollo web front-end y back-end. Experiencia en la creación de proyectos web con HTML, CSS, JavaScript, Java y bases de datos SQL. Acostumbrado a trabajar con control de versiones (Git/GitHub) y a seguir documentación técnica. Busco realizar prácticas para aplicar mis conocimientos, aprender en un entorno profesional y aportar compromiso y responsabilidad al equipo."
+  },
+  "skills": ["Java", "PHP", "SQL (PostgreSQL)", "HTML/CSS", "JavaScript", "AJAX", "JQuery", "Git", "Docker"],
+  "experience": [
+    {
+      "role": "Proyecto DAW – Gestor Biblioteca Virtual",
+      "company": "Formación",
+      "period": "2024–2025",
+      "bullets": ["Web responsive desarrollada con HTML, CSS y JavaScript. Incluye estructura de catálogo, diseño adaptable y base preparada para futuras funcionalidades."]
+    }
+  ],
+  "education": [
+    {
+      "title": "DAW (Desarrollo de Aplicaciones Web)",
+      "org": "Centro IES El Caminàs",
+      "period": "2024–Actualidad"
+    },
+    {
+      "title": "Grado Estudios Ingleses",
+      "org": "Universitat Jaume I",
+      "period": "2017-2022"
+    }
+  ],
+  "additional_experience": [
+    {
+      "role": "Freelance Language Specialist",
+      "company": "Proyectos internacionales",
+      "period": "2021-Actualidad",
+      "bullets": ["Trabajo freelance como traductor, editor y QA lingüístico en proyectos internacionales.",
+      "Colaboración con equipos distribuidos y gestores de proyecto en inglés.",
+      "Cumplimiento de plazos, gestión de tareas y comunicación profesional en entornos remotos."
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    {
+      "name": "Catalan/Valenciano",
+      "level": "Avanzado (C1)"
+    },
+    {
+      "name": "Inglés",
+      "level": "Avanzado (C2)"
+    },{
+      "name": "Italiano",
+      "level": "Lectura básica (A2)"
+    }
+  ]
+}
